@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/media-has-caption */
 import React from 'react';
 import { connect } from 'react-redux';
 import { fetchStream } from '../../actions';
@@ -16,8 +17,9 @@ class StreamShow extends React.Component {
 
     return (
       <div>
+        <video ref={this.videoRef} style={{ width: '100%' }} controls />
         <h2>
-          {stream.title}
+          You are watching: {stream.title}
         </h2>
         <h3>
           {stream.description}
