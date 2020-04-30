@@ -3,7 +3,15 @@
 # How to use this app
 - Clone the repo and run `npm install`
 - Navigate to 'json-server' and run `npm install` (this seems weird to double install, the reason is this server is created just to allow us make REST requests in this demo, can be installed in completely different place)
-- in 'json-server' directory create 'db.json' file, you can call it differently, but be sure to change this name in package.json
+- in 'json-server' directory create 'db.json' file, give it a structure of
+
+```
+{
+  "streams": []
+}
+```
+
+- you can call it differently, but be sure to change this name in package.json
 - run an instance of json server with npm start
 - go back to main directory and run `npm start`
 
