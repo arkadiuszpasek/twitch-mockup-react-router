@@ -12,11 +12,11 @@
 ```
 
 - you can call it differently, but be sure to change this name in package.json
-- run an instance of json server with npm start
+- run an instance of json server with `npm start`
 - go back to main directory and run `npm start`
 
 ## What I learned during this project
-- React Redux - Actions and reducers to manage streams
+- React Redux - Useful to manage streams, handle forms and user authentication
 - React Router - Navigation in this application
 - React portals - displaying modals (delete stream popup)
 - Redux-form
