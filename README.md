@@ -31,6 +31,7 @@
 
 - json-server
 
+##### This app is a learning project and should have much more error handling ;)
 
 ### Possible continuation for streaming media and viewing in the app
 ### How to work with node-media-server
