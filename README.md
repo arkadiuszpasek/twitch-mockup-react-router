@@ -1,4 +1,4 @@
-# Twitch Application, created inspired by Udemy Course 'Modern React with Redux' by Stephen Grider
+# Twitch Application, created because of Udemy Course 'Modern React with Redux' by Stephen Grider
 
 # How to use this app
 - Clone the repo and run `npm install`
