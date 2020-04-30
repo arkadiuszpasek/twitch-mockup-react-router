@@ -15,13 +15,24 @@
 - run an instance of json server with npm start
 - go back to main directory and run `npm start`
 
-what's installed:
+## What I learned during this project
+- React Redux - Actions and reducers to manage streams
+- React Router - Navigation in this application
+- React portals - displaying modals (delete stream popup)
+- Redux-form
+- Redux-thunk - Super important middleeware for handling async fetching
+- Google OAuth2 authorization in a browser
+- REST - managing streams
+
+### What's installed:
 - redux-thunk, redux-form, react-router-dom
 - axios
 - lodash
 
 - json-server
 
+
+### Possible continuation for streaming media and viewing in the app
 ### How to work with node-media-server
 Install node-media-server somewhere, quick setup:
 - run `npm init` in specified directory
