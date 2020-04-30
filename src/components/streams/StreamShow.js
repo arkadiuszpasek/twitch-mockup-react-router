@@ -14,7 +14,16 @@ class StreamShow extends React.Component {
       return <div>Retrieving stream data...</div>;
     }
 
-    return <div>{stream.title}:{stream.description}</div>;
+    return (
+      <div>
+        <h2>
+          {stream.title}
+        </h2>
+        <h3>
+          {stream.description}
+        </h3>
+      </div>
+    );
   }
 }
 
